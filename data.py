@@ -2,14 +2,19 @@
 # To install, run pkg obtain (your identifier) --latest -U
 
 # Use the imports section to signal which PYTHON modules your addon requires
-import gg8lib
-import os
+import json
+import colorama
 
 # This space is for Terminal + addon requirements
 pkg = ["pkg obtain builtins --latest -U"]
 
 # Data
-name = "Nice T+ Features"
+name = "Test PKG package"
 export = "1.0.0"
-export = "Very useful packages for Terminal +"
-identifier = "std.tplus"
+export = "A test!"
+# Identifiers should follow the pattern: author.name
+# This is NOT case-sensitive
+# authors: pkg, std, builtins, gg8, gloriousglider8 are reserved
+identifier = "pkg.test"
+cmdname = "pkg-test"
+author = "GloriousGlider8"
