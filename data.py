@@ -6,7 +6,7 @@ import json
 import colorama
 
 # This space is for Terminal + addon requirements
-pkg = ["pkg obtain builtins --latest -U"]
+pkg = ["pkg install builtins --latest -U"]
 
 # Data
 name = "Test PKG package"
