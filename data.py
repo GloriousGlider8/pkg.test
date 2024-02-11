@@ -1,5 +1,7 @@
 # You addon identifier goes where std.tplus is (at the bottom)
-# To install, run pkg obtain (your identifier) --latest -U
+# To install, run pkg install (GitHub Username)/(GitHub Repo Name)/(Branch Name) --latest -U
+# e.g. pkg install GloriousGlider8/pkg.test/main --latest -U
+# The branch is optional and is set to main by deafult
 
 # Use the imports section to signal which PYTHON modules your addon requires
 import json
@@ -12,9 +14,6 @@ pkg = ["pkg install builtins --latest -U"]
 name = "Test PKG package"
 export = "1.0.0"
 export = "A test!"
-# Identifiers should follow the pattern: author.name
-# This is NOT case-sensitive
-# authors: pkg, std, builtins, gg8, gloriousglider8 are reserved
-identifier = "pkg.test"
+identifier = "pkg-test"
 cmdname = "pkg-test"
 author = "GloriousGlider8"
