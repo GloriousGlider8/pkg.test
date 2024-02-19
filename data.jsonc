@@ -6,8 +6,7 @@
 {
   "imports": ["colorama"],
   "pkg": [],
-  "data": {
-    "name": "Test PKG package",
-    "ver": "1.0.0",
-  }
+  "name": "Test PKG package",
+  "ver": "1.0.0",
+  "elevate": false // If this is true, thet command will attempt to run as admin (or sudo)
 }
