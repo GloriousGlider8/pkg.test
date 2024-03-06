@@ -1,4 +1,4 @@
-# This script will be installed as the cmdname property of your data.py file
+# This script will be installed as the cmd property of your data.jsonc file
 import json
 import colorama as c
 argsTxt = open("data\\args.json", "r")
@@ -7,6 +7,7 @@ argsTxt.close()
 argsTxt = None
 
 print("PKG works!")
+print(c.Fore.GREEN + "Send from PKG!" + c.Style.RESET_ALL)
 
 temp = """argsTxt = open(\"data\\\\args.json\", \"r\")
 args = json.load(argsTxt)

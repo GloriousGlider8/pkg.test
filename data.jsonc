@@ -6,6 +6,7 @@
   "pkg": [],
   "name": "Test PKG package",
   "ver": "1.0.0",
+  "cmd": "pkg-test", // The name of the command to register
   "elevate": false, // If this is true, the command will attempt to run as admin (or sudo)
   "elevate-inst": false, // This will attempt to install as admin (or sudo)
   "readme": false // If true, running help (cmd name) will show README.md
