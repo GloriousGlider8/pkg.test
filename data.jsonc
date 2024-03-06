@@ -3,7 +3,6 @@
 // The branch is optional and is set to main by deafult
 
 {
-  "imports": ["colorama"],
   "pkg": [],
   "name": "Test PKG package",
   "ver": "1.0.0",
